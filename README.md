@@ -22,7 +22,7 @@ Return the tax applied for the first/shortest period of time available for the g
 
 **II. MunicipalTax.Web** – Contains the WebApis.
 
-    1. MunicipalTax.WebApi: Contains endpoint controllers for service layer.
+    1. MunicipalTax.WebApi: Contains controller endpoints for service layer.
 	    - TaxManagerDB.db: Sqlite Database with sample data for municipality taxes data storage.
 
 **III. MunicipalTax.Consumer** – Contains the consumer console client application to use the producer service.
@@ -32,6 +32,7 @@ Return the tax applied for the first/shortest period of time available for the g
 **IV. MunicipalTax.Tests** – Contains the unit tests.
 
     1. MunicipalTax.UnitTest: Contains the unit test implementation for service layer, with mocking used for data access layer.
+    
 
 ### Service Endpoints:
   **1. GET Requests:**
