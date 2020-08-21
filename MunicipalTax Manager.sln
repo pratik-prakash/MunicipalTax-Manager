@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MunicipalTax.Management", "MunicipalTax.Management", "{D8B3B74C-503F-4854-AA51-649DF2C16F68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MunicipalTax.Web", "MunicipalTax.Web", "{0C535801-55A7-49FC-977D-533BC5699B52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MunicipalTax.DAL", "MunicipalTax.Management\MunicipalTax.DAL\MunicipalTax.DAL.csproj", "{D044D765-2A06-4A21-AC54-B215A9428E82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MunicipalTax.Common", "MunicipalTax.Management\MunicipalTax.Common\MunicipalTax.Common.csproj", "{040F1CDB-E17E-41F9-923B-9C9CB5A000DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MunicipalTax.Services", "MunicipalTax.Management\MunicipalTax.Services\MunicipalTax.Services.csproj", "{310B1CCB-CE2A-467C-9AC7-6F160E2C8104}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MunicipalTax.Entity", "MunicipalTax.Management\MunicipalTax.Entity\MunicipalTax.Entity.csproj", "{9DA5127C-BD72-4CB4-96CF-C36BD7242631}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MunicipalTax.WebApi", "MunicipalTax.Web\MunicipalTax.WebApi\MunicipalTax.WebApi.csproj", "{33FE9D13-970D-4E33-B98F-9062AD4E23C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MunicipalTax.Consumer", "MunicipalTax.Consumer", "{0EDB4EFC-956A-45BB-9473-27D144CF8419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MunicipalTax.ConsoleClient", "MunicipalTax.Consumer\MunicipalTax.ConsoleClient\MunicipalTax.ConsoleClient.csproj", "{4D1D8219-0302-4E09-BB94-55F0EF599E9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MunicipalTax.Tests", "MunicipalTax.Tests", "{43DA5FE3-140B-4CCB-9E76-F90EF13AF933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MunicipalTax.UnitTest", "MunicipalTax.Tests\MunicipalTax.UnitTest\MunicipalTax.UnitTest.csproj", "{6B65FE87-2F38-40AA-9C9B-6F644EFFC6FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D044D765-2A06-4A21-AC54-B215A9428E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D044D765-2A06-4A21-AC54-B215A9428E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D044D765-2A06-4A21-AC54-B215A9428E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D044D765-2A06-4A21-AC54-B215A9428E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{040F1CDB-E17E-41F9-923B-9C9CB5A000DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040F1CDB-E17E-41F9-923B-9C9CB5A000DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040F1CDB-E17E-41F9-923B-9C9CB5A000DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040F1CDB-E17E-41F9-923B-9C9CB5A000DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310B1CCB-CE2A-467C-9AC7-6F160E2C8104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310B1CCB-CE2A-467C-9AC7-6F160E2C8104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310B1CCB-CE2A-467C-9AC7-6F160E2C8104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310B1CCB-CE2A-467C-9AC7-6F160E2C8104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA5127C-BD72-4CB4-96CF-C36BD7242631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA5127C-BD72-4CB4-96CF-C36BD7242631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA5127C-BD72-4CB4-96CF-C36BD7242631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA5127C-BD72-4CB4-96CF-C36BD7242631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FE9D13-970D-4E33-B98F-9062AD4E23C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FE9D13-970D-4E33-B98F-9062AD4E23C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FE9D13-970D-4E33-B98F-9062AD4E23C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FE9D13-970D-4E33-B98F-9062AD4E23C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1D8219-0302-4E09-BB94-55F0EF599E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1D8219-0302-4E09-BB94-55F0EF599E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1D8219-0302-4E09-BB94-55F0EF599E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1D8219-0302-4E09-BB94-55F0EF599E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B65FE87-2F38-40AA-9C9B-6F644EFFC6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B65FE87-2F38-40AA-9C9B-6F644EFFC6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B65FE87-2F38-40AA-9C9B-6F644EFFC6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B65FE87-2F38-40AA-9C9B-6F644EFFC6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D044D765-2A06-4A21-AC54-B215A9428E82} = {D8B3B74C-503F-4854-AA51-649DF2C16F68}
+		{040F1CDB-E17E-41F9-923B-9C9CB5A000DD} = {D8B3B74C-503F-4854-AA51-649DF2C16F68}
+		{310B1CCB-CE2A-467C-9AC7-6F160E2C8104} = {D8B3B74C-503F-4854-AA51-649DF2C16F68}
+		{9DA5127C-BD72-4CB4-96CF-C36BD7242631} = {D8B3B74C-503F-4854-AA51-649DF2C16F68}
+		{33FE9D13-970D-4E33-B98F-9062AD4E23C6} = {0C535801-55A7-49FC-977D-533BC5699B52}
+		{4D1D8219-0302-4E09-BB94-55F0EF599E9F} = {0EDB4EFC-956A-45BB-9473-27D144CF8419}
+		{6B65FE87-2F38-40AA-9C9B-6F644EFFC6FB} = {43DA5FE3-140B-4CCB-9E76-F90EF13AF933}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C0C118A-2025-4AFC-B5A9-F959781169F1}
+	EndGlobalSection
+EndGlobal

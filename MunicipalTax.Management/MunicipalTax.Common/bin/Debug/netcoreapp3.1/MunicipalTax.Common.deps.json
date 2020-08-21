@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MunicipalTax.Common/1.0.0": {
+        "dependencies": {
+          "MunicipalTax.Entity": "1.0.0"
+        },
+        "runtime": {
+          "MunicipalTax.Common.dll": {}
+        }
+      },
+      "MunicipalTax.Entity/1.0.0": {
+        "runtime": {
+          "MunicipalTax.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MunicipalTax.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MunicipalTax.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

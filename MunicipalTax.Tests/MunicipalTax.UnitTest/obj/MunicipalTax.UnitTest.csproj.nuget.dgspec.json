@@ -1,0 +1,351 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Tests\\MunicipalTax.UnitTest\\MunicipalTax.UnitTest.csproj": {}
+  },
+  "projects": {
+    "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Common\\MunicipalTax.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Common\\MunicipalTax.Common.csproj",
+        "projectName": "MunicipalTax.Common",
+        "projectPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Common\\MunicipalTax.Common.csproj",
+        "packagesPath": "C:\\Users\\iddyasoft\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iddyasoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Entity\\MunicipalTax.Entity.csproj": {
+                "projectPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Entity\\MunicipalTax.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.DAL\\MunicipalTax.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.DAL\\MunicipalTax.DAL.csproj",
+        "projectName": "MunicipalTax.DAL",
+        "projectPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.DAL\\MunicipalTax.DAL.csproj",
+        "packagesPath": "C:\\Users\\iddyasoft\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iddyasoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Entity\\MunicipalTax.Entity.csproj": {
+                "projectPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Entity\\MunicipalTax.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Entity\\MunicipalTax.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Entity\\MunicipalTax.Entity.csproj",
+        "projectName": "MunicipalTax.Entity",
+        "projectPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Entity\\MunicipalTax.Entity.csproj",
+        "packagesPath": "C:\\Users\\iddyasoft\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iddyasoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Services\\MunicipalTax.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Services\\MunicipalTax.Services.csproj",
+        "projectName": "MunicipalTax.Services",
+        "projectPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Services\\MunicipalTax.Services.csproj",
+        "packagesPath": "C:\\Users\\iddyasoft\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iddyasoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Common\\MunicipalTax.Common.csproj": {
+                "projectPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Common\\MunicipalTax.Common.csproj"
+              },
+              "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.DAL\\MunicipalTax.DAL.csproj": {
+                "projectPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.DAL\\MunicipalTax.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Tests\\MunicipalTax.UnitTest\\MunicipalTax.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Tests\\MunicipalTax.UnitTest\\MunicipalTax.UnitTest.csproj",
+        "projectName": "MunicipalTax.UnitTest",
+        "projectPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Tests\\MunicipalTax.UnitTest\\MunicipalTax.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\iddyasoft\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Tests\\MunicipalTax.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iddyasoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Common\\MunicipalTax.Common.csproj": {
+                "projectPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Common\\MunicipalTax.Common.csproj"
+              },
+              "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.DAL\\MunicipalTax.DAL.csproj": {
+                "projectPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.DAL\\MunicipalTax.DAL.csproj"
+              },
+              "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Entity\\MunicipalTax.Entity.csproj": {
+                "projectPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Entity\\MunicipalTax.Entity.csproj"
+              },
+              "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Services\\MunicipalTax.Services.csproj": {
+                "projectPath": "D:\\Visual Studio 2019\\Projects\\MunicipalTax Manager\\MunicipalTax.Management\\MunicipalTax.Services\\MunicipalTax.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

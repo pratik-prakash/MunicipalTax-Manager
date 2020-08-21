@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MunicipalTax.Common\MunicipalTax.Common.csproj" />
+    <ProjectReference Include="..\MunicipalTax.DAL\MunicipalTax.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
